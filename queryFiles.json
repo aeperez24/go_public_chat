@@ -1,0 +1,7 @@
+{"query":
+	{"mongo":
+		{"chat_message":
+			{"datestart_dateend":"{\"date\":{$gt:\"$inicio\",$lt:\"$fin\"}}"}
+		}
+	}
+}
