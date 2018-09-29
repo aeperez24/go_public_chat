@@ -5,45 +5,5 @@
 	"imagesFilePath":"/home/andres/Documents/golanggit/golang_chat/images/",
 	"repositories":[{
 
-	}],
-	"usesCases":[
-		{		"name":"helloWorld",
-				"Method":"NewMessageUseCase",
-				"Repositories":[]			
-		}
-	],
-	
-	"handlers":[{
-			"name":"helloWorld",	
-			"type":"GET",
-			"endPoint":"helloWorld",
-			"context":"autoconfig",
-			"usecaseName":"helloWorld",
-			"method":"SayHello",
-			"parameters":["name"]
-
-			
-		},
-		{	"name":"goodbyworld",			
-			"type":"GET",
-			"endPoint":"byeWorld",
-			"context":"autoconfig",
-			"usecaseName":"helloWorld",
-			"method":"SayBye",
-			"parameters":["name"]
-		},
-		{	"name":"SendMsj",			
-			"type":"POST",
-			"endPoint":"sendMsj",
-			"context":"autoconfig",
-			"usecaseName":"helloWorld",
-			"method":"SendMsj",
-			"parameters":["name"]
-		}
-
-	
-	
-	]
-
-
+	}],	
 }
